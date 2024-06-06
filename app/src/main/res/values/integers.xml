@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="flame_alert">30</integer>
+    <integer name="flame_danger">10</integer>
+
+    <integer name="gas_alert">84</integer>
+    <integer name="gas_danger">88</integer>
+
+    <integer name="temp_alert">35</integer>
+    <integer name="temp_danger">40</integer>
+
+    <integer name="soil_alert">80</integer>
+    <integer name="soil_danger">100</integer>
+
+    <integer name="humidity_alert">75</integer>
+    <integer name="humidity_danger">84</integer>
+
+</resources>

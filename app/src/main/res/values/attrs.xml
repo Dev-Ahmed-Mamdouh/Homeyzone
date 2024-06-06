@@ -1,0 +1,80 @@
+<resources>
+
+    <declare-styleable name="SeekArc">
+        <attr name="max" format="integer" />
+        <attr name="progressWidth" format="dimension" />
+        <attr name="arcWidth" format="dimension" />
+        <attr name="progress" format="integer" />
+        <attr name="rotation" format="integer" />
+        <attr name="startAngle" format="integer" />
+        <attr name="sweepAngle" format="integer" />
+        <attr name="arcColor" format="color" />
+        <attr name="progressStartColor" format="color" />
+        <attr name="progressEndColor" format="color" />
+        <attr name="roundEdges" format="boolean" />
+        <attr name="touchInside" format="boolean" />
+        <attr name="clockwise" format="boolean" />
+        <attr name="enabled" format="boolean" />
+    </declare-styleable>
+    
+    <declare-styleable name="SeekArcTheme">
+        <attr name="seekArcStyle" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="kdgaugeview">
+        <attr name="maxSpeed" format="float"/>
+        <attr name="minSpeed" format="float"/>
+        <attr name="speed" format="float"/>
+
+        <attr name="speed_alert" format="float"/>
+        <attr name="speed_danger" format="float"/>
+        <attr name="speed_limit" format="float"/>
+
+        <attr name="animationTime" format="integer"/>
+        <attr name="unitOfMeasurement" format="string"/>
+
+        <attr name="speedTextSize" format="dimension"/>
+        <attr name="unitOfMeasurementTextSize" format="dimension"/>
+        <attr name="speedLimitTextSize" format="dimension"/>
+
+        <attr name="speedDialRingWidth" format="dimension"/>
+        <attr name="speedDialRingInnerPadding" format="dimension"/>
+
+
+        <attr name="dialActiveColor" format="color"/>
+        <attr name="dialInactiveColor" format="color"/>
+        <attr name="dialSpeedColor" format="color"/>
+
+        <attr name="dialSpeedAlertColor" format="color"/>
+        <attr name="dialSpeedDangerColor" format="color"/>
+
+        <attr name="subDivisionCircleColor" format="color"/>
+        <attr name="divisionCircleColor" format="color"/>
+        <attr name="speedTextColor" format="color"/>
+        <attr name="unitOfMeasurementTextColor" format="color"/>
+        <attr name="speedLimitTextColor" format="color"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="Gauge">
+        <attr name="totalNicks" format="integer" />
+        <attr name="valuePerNick" format="float" />
+        <attr name="majorNickInterval" format="integer" />
+        <attr name="minValue" format="float" />
+        <attr name="maxValue" format="float" />
+        <attr name="intScale" format="boolean" />
+        <attr name="initialValue" format="float" />
+        <attr name="labelTextSize" format="float" />
+        <attr name="faceColor" format="integer" />
+        <attr name="scaleColor" format="integer" />
+        <attr name="needleShadow" format="boolean" />
+        <attr name="needleColor" format="integer" />
+        <attr name="textSize" format="float" />
+        <attr name="upperText" format="string" />
+        <attr name="lowerText" format="string" />
+        <attr name="upperTextSize" format="float" />
+        <attr name="lowerTextSize" format="float" />
+
+    </declare-styleable>
+
+</resources>

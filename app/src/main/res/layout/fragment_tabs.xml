@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_activity_view">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:background="@drawable/tab_shadow"
+        app:layout_constraintBottom_toTopOf="@+id/tab_background"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <View
+        android:id="@+id/tab_background"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.8636"/>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dip"
+        android:id="@+id/btn_connections"
+        app:layout_constraintWidth_percent="0.185"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_height="0dip"
+        app:layout_constraintTop_toTopOf="@+id/tab_background"
+        app:layout_constraintBottom_toBottomOf="@+id/tab_background">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/tab_connections_unselected"
+            android:layout_height="0dip"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.6"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <View
+        android:background="@color/tab_separator"
+        android:layout_width="2dp"
+        app:layout_constraintRight_toRightOf="@+id/btn_connections"
+        app:layout_constraintHeight_percent="0.5"
+        app:layout_constraintTop_toTopOf="@+id/tab_background"
+        app:layout_constraintBottom_toBottomOf="@+id/tab_background"
+        android:layout_height="0dip"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dip"
+        android:id="@+id/btn_notification"
+        app:layout_constraintLeft_toRightOf="@+id/btn_connections"
+        android:layout_height="0dip"
+        app:layout_constraintWidth_percent="0.185"
+        app:layout_constraintTop_toTopOf="@+id/tab_background"
+        app:layout_constraintBottom_toBottomOf="@+id/tab_background">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/tab_notification_unselected"
+            android:layout_height="0dip"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.6"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <View
+        android:background="@color/tab_separator"
+        android:layout_width="2dp"
+        app:layout_constraintRight_toRightOf="@+id/btn_notification"
+        app:layout_constraintHeight_percent="0.5"
+        app:layout_constraintTop_toTopOf="@+id/tab_background"
+        app:layout_constraintBottom_toBottomOf="@+id/tab_background"
+        android:layout_height="0dip"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dip"
+        app:layout_constraintWidth_percent="0.26"
+        android:id="@+id/btn_home"
+        app:layout_constraintLeft_toRightOf="@+id/btn_notification"
+        android:layout_height="0dip"
+        app:layout_constraintTop_toTopOf="@+id/tab_background"
+        app:layout_constraintBottom_toBottomOf="@+id/tab_background">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:src="@drawable/tab_home_unselected"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.6"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:background="@color/tab_separator"
+        android:layout_width="2dp"
+        app:layout_constraintRight_toRightOf="@+id/btn_home"
+        app:layout_constraintHeight_percent="0.5"
+        app:layout_constraintTop_toTopOf="@+id/tab_background"
+        app:layout_constraintBottom_toBottomOf="@+id/tab_background"
+        android:layout_height="0dip"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dip"
+        app:layout_constraintWidth_percent="0.185"
+        android:id="@+id/btn_setting"
+        app:layout_constraintLeft_toRightOf="@+id/btn_home"
+        android:layout_height="0dip"
+        app:layout_constraintTop_toTopOf="@+id/tab_background"
+        app:layout_constraintBottom_toBottomOf="@+id/tab_background">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/tab_setting_unselected"
+            android:layout_height="0dip"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.6"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:background="@color/tab_separator"
+        android:layout_width="2dp"
+        app:layout_constraintRight_toRightOf="@+id/btn_setting"
+        app:layout_constraintHeight_percent="0.5"
+        app:layout_constraintTop_toTopOf="@+id/tab_background"
+        app:layout_constraintBottom_toBottomOf="@+id/tab_background"
+        android:layout_height="0dip"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dip"
+        app:layout_constraintWidth_percent="0.185"
+        android:id="@+id/btn_profile"
+        app:layout_constraintLeft_toRightOf="@+id/btn_setting"
+        android:layout_height="0dip"
+        app:layout_constraintTop_toTopOf="@+id/tab_background"
+        app:layout_constraintBottom_toBottomOf="@+id/tab_background">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/tab_profile_unselected"
+            android:layout_height="0dip"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.6"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="0dip"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/selector_anchor"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintWidth_percent="0.26"
+        android:layout_height="match_parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dip"
+        android:id="@+id/selector"
+        app:layout_constraintWidth_percent="0.3266"
+        app:layout_constraintRight_toRightOf="@+id/selector_anchor"
+        android:background="@drawable/tab_selector2"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dip"
+            app:layout_constraintWidth_percent="0.85714"
+            app:layout_constraintHeight_percent="0.8"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.65"
+            android:clipChildren="true"
+            android:id="@+id/selector_data"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_height="0dip">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dip"
+                app:layout_constraintWidth_percent="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:id="@+id/selector_data1"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="0dip"
+                    app:layout_constraintWidth_percent="1"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintHeight_percent="0.7"
+                    android:layout_height="0dip"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dip"
+                    app:layout_constraintWidth_percent="0.8"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_height="0dip"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:autoSizeTextType="uniform"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.99"
+                    app:layout_constraintHeight_percent="0.3"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dip"
+                app:layout_constraintWidth_percent="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:id="@+id/selector_data2"
+                android:visibility="gone"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="0dip"
+                    app:layout_constraintWidth_percent="1"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintHeight_percent="0.7"
+                    android:layout_height="0dip"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dip"
+                    app:layout_constraintWidth_percent="0.8"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_height="0dip"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:autoSizeTextType="uniform"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.99"
+                    app:layout_constraintHeight_percent="0.3"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
