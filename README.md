@@ -29,3 +29,4 @@ The Homeyzone app is for advanced Smart Home control, enhancing home automation 
 11-	Water Pump Screen
 ## App Screen 
 ### 1-	Splash Screen
+![Home 1](https://github.com/Dev-Ahmed-Mamdouh/Homeyzone/assets/157643993/586dc8fa-95e8-4291-8399-cd9a8abb81ad)
