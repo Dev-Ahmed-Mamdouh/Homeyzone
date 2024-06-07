@@ -27,4 +27,5 @@ The Homeyzone app is for advanced Smart Home control, enhancing home automation 
 10-	Garage Screen
 
 11-	Water Pump Screen
-
+## App Screen 
+### 1-	Splash Screen
