@@ -78,20 +78,31 @@ ___
 ___
 ### 7-	Notification Screen
 (Explanation)
+<div>
   <img src="https://github.com/Dev-Ahmed-Mamdouh/Homeyzone/assets/157643993/09da9acc-4249-4d23-af7d-032a6130b166" alt="Notification Screen" width="300">
-
+<div>
+  
   ___
 ### 8-	Door Screen
 (Explanation)
+<div>
   <img src="https://github.com/Dev-Ahmed-Mamdouh/Homeyzone/assets/157643993/39ec29d1-dc43-4395-873e-390d96da6223" alt="Door Screen" width="300">
+</div>
+
 ___
 ### 9-	Window Screen
 (Explanation)
+<div>
   <img src="https://github.com/Dev-Ahmed-Mamdouh/Homeyzone/assets/157643993/742428ec-5e7b-4f89-a2b0-72137c28d17c" alt="Window Screen" width="300">  
+</div>
+
 ___
 ### 10-	Garage Screen
 (Explanation)
+<div>
   <img src="https://github.com/Dev-Ahmed-Mamdouh/Homeyzone/assets/157643993/c82cbe97-b56a-4ce3-9881-117c2c53abad" alt="Garage Screen" width="300">
+</div>
+
 ___
 ### 11-	Water Pump Screen
 (Explanation)
