@@ -3,7 +3,25 @@ The Homeyzone app is for advanced Smart Home control, enhancing home automation 
 
 ## Features
 
-## Video
+1- **Remote Device Control:** Seamlessly manage various smart home devices like lights, fans, and thermostats from anywhere, offering unparalleled convenience and flexibility.
+
+2- **Live Device Monitoring:** Stay informed with real-time updates on device status, including temperature, humidity, and lights on or off, ensuring you're always connected to your home environment.
+
+3- **Instant Alerts and Notifications:** Receive timely notifications for critical events such as detecting smoke, gas leaks, or sudden changes in temperature or humidity, providing peace of mind and swift response in emergencies.
+
+4- **Emergency Warning System:** Deploy a robust warning mechanism to alert users loudly and clearly during fire, smoke, or gas detection, prioritizing user safety.
+
+5- **Intuitive User Interface:** Enjoy an intuitive and responsive user interface designed for effortless integration of new devices and technologies, ensuring a seamless user experience and adaptability to evolving smart home ecosystems.
+
+6- **Firebase Realtime Database Integration:** Leverage the power of Firebase Realtime Database for efficient remote access and execution of complex automation tasks, delivering enhanced functionality and reliability.
+
+7- **End-to-end Encryption:** Prioritize data security with robust encryption protocols for both transmission and storage, safeguarding sensitive information against unauthorized access and ensuring user privacy.
+
+8- **Multi-Device Coordination:** Enable seamless coordination among multiple devices to execute complex tasks efficiently, enhancing automation capabilities and maximizing user convenience and efficiency in managing their smart home environment.
+
+
+# (if i put Video i will put it with features)
+
 
 ## About App
 1-	Splash Screen
